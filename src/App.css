@@ -1,7 +1,15 @@
 .App {
   text-align: center;
 }
-
+.App ul{
+    float: left;
+    width:100%;
+}
+.App ul>li{
+    float: left;
+    padding:10px;
+    list-style-type: none;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
